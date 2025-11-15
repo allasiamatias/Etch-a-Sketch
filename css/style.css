@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    width: 960px;
+}
+.celda{
+    border:solid 1px black;
+}
+
+.color{
+    background-color: blueviolet;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn-change{
+    margin: 1rem ;
+    padding: 1rem 2rem;
+}
